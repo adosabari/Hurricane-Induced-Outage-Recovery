@@ -1,0 +1,210 @@
+===============================================================
+Results for Hurricane Delta:
+  Counties selected after filtering: 80
+  Moran's I for max_percent_outage: 0.4810
+    p-value: 0.0010
+    z-score: 4.7653
+  Moran's I for recovery_time_minutes: 0.4389
+    p-value: 0.0010
+    z-score: 4.4812
+===============================================================
+===============================================================
+Results for Hurricane Dorian:
+  Counties selected after filtering: 37
+  Moran's I for max_percent_outage: 0.2316
+    p-value: 0.0540
+    z-score: 1.7390
+  Moran's I for recovery_time_minutes: 0.3166
+    p-value: 0.0110
+    z-score: 2.4085
+===============================================================
+===============================================================
+Results for Hurricane Florence:
+  Counties selected after filtering: 77
+  Moran's I for max_percent_outage: 0.5395
+    p-value: 0.0030
+    z-score: 4.0101
+  Moran's I for recovery_time_minutes: 0.7544
+    p-value: 0.0010
+    z-score: 5.8048
+===============================================================
+===============================================================
+Results for Hurricane Hanna:
+  Counties selected after filtering: 37
+  Moran's I for max_percent_outage: -0.0836
+    p-value: 0.4280
+    z-score: -0.2495
+  Moran's I for recovery_time_minutes: 0.1488
+    p-value: 0.1390
+    z-score: 0.9467
+===============================================================
+===============================================================
+Results for Hurricane Harvey:
+  Counties selected after filtering: 55
+  Moran's I for max_percent_outage: 0.1432
+    p-value: 0.1390
+    z-score: 0.9853
+  Moran's I for recovery_time_minutes: 0.0806
+    p-value: 0.1860
+    z-score: 0.6516
+===============================================================
+===============================================================
+Results for Hurricane Ian:
+  Counties selected after filtering: 140
+  Moran's I for max_percent_outage: 0.4304
+    p-value: 0.0010
+    z-score: 5.6422
+  Moran's I for recovery_time_minutes: 0.0890
+    p-value: 0.0800
+    z-score: 1.3669
+===============================================================
+===============================================================
+Results for Hurricane Ida:
+  Counties selected after filtering: 148
+  Moran's I for max_percent_outage: 0.8601
+    p-value: 0.0010
+    z-score: 9.2352
+  Moran's I for recovery_time_minutes: 0.8722
+    p-value: 0.0010
+    z-score: 10.0767
+===============================================================
+===============================================================
+Results for Hurricane Idalia:
+  Counties selected after filtering: 91
+  Moran's I for max_percent_outage: 0.3677
+    p-value: 0.0030
+    z-score: 3.6968
+  Moran's I for recovery_time_minutes: 0.2509
+    p-value: 0.0120
+    z-score: 3.1781
+===============================================================
+===============================================================
+Results for Hurricane Irma:
+  Counties selected after filtering: 212
+  Moran's I for max_percent_outage: 0.4012
+    p-value: 0.0010
+    z-score: 7.9038
+  Moran's I for recovery_time_minutes: 0.6268
+    p-value: 0.0010
+    z-score: 11.8639
+===============================================================
+===============================================================
+Results for Hurricane Isaias:
+  Counties selected after filtering: 190
+  Moran's I for max_percent_outage: 0.2901
+    p-value: 0.0010
+    z-score: 4.9227
+  Moran's I for recovery_time_minutes: 0.6722
+    p-value: 0.0010
+    z-score: 11.6462
+===============================================================
+===============================================================
+Results for Hurricane Laura:
+  Counties selected after filtering: 171
+  Moran's I for max_percent_outage: 0.4262
+    p-value: 0.0010
+    z-score: 5.0957
+  Moran's I for recovery_time_minutes: 0.6330
+    p-value: 0.0010
+    z-score: 8.0205
+===============================================================
+===============================================================
+Results for Hurricane Michael:
+  Counties selected after filtering: 198
+  Moran's I for max_percent_outage: 0.2214
+    p-value: 0.0010
+    z-score: 4.0665
+  Moran's I for recovery_time_minutes: 0.5903
+    p-value: 0.0010
+    z-score: 10.3664
+===============================================================
+===============================================================
+Results for Hurricane Nicholas:
+  Counties selected after filtering: 50
+  Moran's I for max_percent_outage: 0.0519
+    p-value: 0.3140
+    z-score: 0.3809
+  Moran's I for recovery_time_minutes: 0.4732
+    p-value: 0.0110
+    z-score: 3.2710
+===============================================================
+===============================================================
+Results for Hurricane Nicole:
+  Counties selected after filtering: 36
+  Moran's I for max_percent_outage: 0.4773
+    p-value: 0.0220
+    z-score: 2.2522
+  Moran's I for recovery_time_minutes: 0.2803
+    p-value: 0.1010
+    z-score: 1.3748
+===============================================================
+===============================================================
+Results for Hurricane Sally:
+  Counties selected after filtering: 55
+  Moran's I for max_percent_outage: 0.3994
+    p-value: 0.0020
+    z-score: 3.1877
+  Moran's I for recovery_time_minutes: 0.3600
+    p-value: 0.0160
+    z-score: 2.9675
+===============================================================
+===============================================================
+Results for Hurricane Zeta:
+  Counties selected after filtering: 183
+  Moran's I for max_percent_outage: 0.4453
+    p-value: 0.0010
+    z-score: 6.7369
+  Moran's I for recovery_time_minutes: 0.4251
+    p-value: 0.0010
+    z-score: 6.3121
+===============================================================
+===============================================================
+Results for Hurricane Beryl:
+  Counties selected after filtering: 83
+  Moran's I for max_percent_outage: 0.6719
+    p-value: 0.0010
+    z-score: 5.5338
+  Moran's I for recovery_time_minutes: 0.4648
+    p-value: 0.0090
+    z-score: 3.8287
+===============================================================
+===============================================================
+Results for Hurricane Debby:
+  Counties selected after filtering: 206
+  Moran's I for max_percent_outage: 0.2089
+    p-value: 0.0030
+    z-score: 3.0978
+  Moran's I for recovery_time_minutes: 0.0744
+    p-value: 0.0360
+    z-score: 2.2238
+===============================================================
+===============================================================
+Results for Hurricane Milton:
+  Counties selected after filtering: 33
+  Moran's I for max_percent_outage: 0.3332
+    p-value: 0.0020
+    z-score: 2.9204
+  Moran's I for recovery_time_minutes: 0.1783
+    p-value: 0.0540
+    z-score: 1.6877
+===============================================================
+===============================================================
+Results for Hurricane Francine:
+  Counties selected after filtering: 72
+  Moran's I for max_percent_outage: 0.3207
+    p-value: 0.0070
+    z-score: 3.0899
+  Moran's I for recovery_time_minutes: 0.4987
+    p-value: 0.0010
+    z-score: 4.8067
+===============================================================
+===============================================================
+Results for Hurricane Helene:
+  Counties selected after filtering: 375
+  Moran's I for max_percent_outage: 0.4185
+    p-value: 0.0010
+    z-score: 10.1050
+  Moran's I for recovery_time_minutes: 0.6027
+    p-value: 0.0010
+    z-score: 14.8669
+===============================================================

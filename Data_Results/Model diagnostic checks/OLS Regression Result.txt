@@ -1,0 +1,104 @@
+Total number of counties after filtering: 2519
+
+==================== OLS Model Summary (spreg) ====================
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :        None
+Dependent Variable  :Recovery Time Minutes                Number of Observations:        2519
+Mean dependent var  :      6.4244                Number of Variables   :          56
+S.D. dependent var  :      1.4862                Degrees of Freedom    :        2463
+R-squared           :      0.4810
+Adjusted R-squared  :      0.4694
+Sum squared residual:     2886.82                F-statistic           :     41.4961
+Sigma-square        :       1.172                Prob(F-statistic)     :  3.648e-305
+S.E. of regression  :       1.083                Log likelihood        :   -3745.970
+Sigma-square ML     :       1.146                Akaike info criterion :    7603.940
+S.E of regression ML:      1.0705                Schwarz criterion     :    7930.510
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT         6.94990         1.40661         4.94089         0.00000
+  max_percent_outage         0.92121         0.03110        29.61922         0.00000
+       Median income        -0.24791         0.11654        -2.12727         0.03350
+Critical_facilities_Count_c         0.11840         0.06923         1.71027         0.08734
+               GDP_c         0.08345         0.04780         1.74564         0.08100
+             All_SVI        -0.07355         0.10080        -0.72962         0.46569
+     Hurricane_Debby        -0.41998         0.20271        -2.07185         0.03838
+     Hurricane_Delta        -0.16658         0.18089        -0.92088         0.35720
+    Hurricane_Dorian        -0.37564         0.26911        -1.39589         0.16287
+  Hurricane_Florence        -0.02911         0.22659        -0.12845         0.89780
+  Hurricane_Francine        -0.52313         0.19776        -2.64525         0.00821
+     Hurricane_Hanna         0.31718         0.21977         1.44326         0.14907
+    Hurricane_Harvey        -0.08162         0.19161        -0.42595         0.67018
+    Hurricane_Helene         0.06770         0.20033         0.33792         0.73545
+       Hurricane_Ian        -0.34535         0.21210        -1.62823         0.10360
+       Hurricane_Ida        -0.37220         0.18785        -1.98137         0.04766
+    Hurricane_Idalia        -0.49400         0.22456        -2.19989         0.02791
+      Hurricane_Irma         0.35230         0.20981         1.67913         0.09325
+    Hurricane_Isaias        -0.37179         0.21893        -1.69824         0.08959
+     Hurricane_Laura        -0.07306         0.15417        -0.47388         0.63562
+   Hurricane_Michael        -0.11569         0.20750        -0.55755         0.57720
+    Hurricane_Milton        -0.05802         0.28435        -0.20406         0.83833
+  Hurricane_Nicholas         0.19205         0.19897         0.96526         0.33451
+    Hurricane_Nicole        -0.59634         0.27060        -2.20380         0.02763
+     Hurricane_Sally        -0.58971         0.24000        -2.45715         0.01407
+      Hurricane_Zeta        -0.27411         0.19815        -1.38337         0.16668
+      state_Arkansas        -0.63570         0.21474        -2.96037         0.00310
+      state_Delaware         0.30200         0.78816         0.38317         0.70163
+       state_Florida        -0.24252         0.16793        -1.44415         0.14882
+       state_Georgia        -0.06156         0.14386        -0.42792         0.66875
+      state_Illinois        -1.63819         0.41590        -3.93891         0.00008
+       state_Indiana        -0.74164         0.26304        -2.81951         0.00485
+      state_Kentucky         0.06560         0.18200         0.36045         0.71854
+     state_Louisiana         0.10981         0.18329         0.59908         0.54917
+         state_Maine         0.19245         0.40472         0.47551         0.63446
+      state_Maryland        -0.33018         0.31854        -1.03656         0.30004
+ state_Massachusetts         0.23861         0.39077         0.61061         0.54151
+   state_Mississippi        -0.38548         0.17363        -2.22016         0.02650
+      state_Missouri        -0.29317         0.30736        -0.95385         0.34025
+ state_New Hampshire        -0.06038         0.39097        -0.15443         0.87728
+    state_New Jersey         0.89111         0.28083         3.17318         0.00153
+      state_New York         0.37597         0.23654         1.58944         0.11209
+state_North Carolina        -0.62478         0.15422        -4.05128         0.00005
+          state_Ohio        -0.41845         0.25534        -1.63882         0.10138
+  state_Pennsylvania         0.01690         0.27883         0.06061         0.95167
+  state_Rhode Island         0.34770         0.51955         0.66924         0.50341
+state_South Carolina        -0.49792         0.16549        -3.00879         0.00265
+     state_Tennessee        -0.41512         0.24957        -1.66336         0.09637
+         state_Texas        -0.65605         0.20254        -3.23909         0.00122
+       state_Vermont         0.38657         0.35442         1.09070         0.27551
+      state_Virginia        -0.11020         0.15931        -0.69171         0.48919
+ state_West Virginia        -0.24212         0.19933        -1.21467         0.22461
+County_class_Nonmetro        -0.26456         0.07123        -3.71427         0.00021
+Hurricane_risk_Risky        -0.12939         0.06307        -2.05160         0.04031
+       Wind_swath_TD        -1.14253         0.10812       -10.56708         0.00000
+       Wind_swath_TS        -0.75118         0.08928        -8.41349         0.00000
+------------------------------------------------------------------------------------
+Warning: Variable(s) ['const'] removed for being constant.
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER          271.053
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2          54.458           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               55         224.260           0.0000
+Koenker-Bassett test             55         168.724           0.0000
+================================ END OF REPORT =====================================
+
+==================== Lagrange Multiplier (LM) Test Results ====================
+ Standard LM Lag Test Statistic: 101.2958, p-value: 0.0000
+ Standard LM Error Test Statistic: 101.1496, p-value: 0.0000
+
+==================== Robust Lagrange Multiplier Test Results ====================
+ Robust LM Lag Test Statistic: 40.5845, p-value: 0.0000
+ Robust LM Error Test Statistic: 40.4383, p-value: 0.0000

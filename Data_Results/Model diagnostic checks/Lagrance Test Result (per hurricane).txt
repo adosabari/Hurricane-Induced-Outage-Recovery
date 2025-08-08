@@ -1,0 +1,190 @@
+ Total number of counties after filtering: 2519
+
+--- Hurricane: Beryl ---
+ Number of counties: 82
+
+ LM Test Results for Hurricane Beryl:
+ LM Lag Statistic: 1.3845, p-value: 0.2393
+ LM Error Statistic: 0.3748, p-value: 0.5404
+ Robust LM Lag Statistic: 2.4601, p-value: 0.1168
+ Robust LM Error Statistic: 1.4504, p-value: 0.2285
+
+--- Hurricane: Debby ---
+ Number of counties: 206
+
+ LM Test Results for Hurricane Debby:
+ LM Lag Statistic: 4.1076, p-value: 0.0427
+ LM Error Statistic: 3.3762, p-value: 0.0661
+ Robust LM Lag Statistic: 1.7216, p-value: 0.1895
+ Robust LM Error Statistic: 0.9903, p-value: 0.3197
+
+--- Hurricane: Delta ---
+ Number of counties: 80
+
+ LM Test Results for Hurricane Delta:
+ LM Lag Statistic: 4.3105, p-value: 0.0379
+ LM Error Statistic: 3.7839, p-value: 0.0517
+ Robust LM Lag Statistic: 1.9823, p-value: 0.1591
+ Robust LM Error Statistic: 1.4557, p-value: 0.2276
+
+--- Hurricane: Dorian ---
+ Number of counties: 37
+
+ LM Test Results for Hurricane Dorian:
+ LM Lag Statistic: 6.5766, p-value: 0.0103
+ LM Error Statistic: 0.0542, p-value: 0.8160
+ Robust LM Lag Statistic: 8.5145, p-value: 0.0035
+ Robust LM Error Statistic: 1.9921, p-value: 0.1581
+
+--- Hurricane: Florence ---
+ Number of counties: 77
+
+ LM Test Results for Hurricane Florence:
+ LM Lag Statistic: 1.5909, p-value: 0.2072
+ LM Error Statistic: 0.3225, p-value: 0.5701
+ Robust LM Lag Statistic: 2.8461, p-value: 0.0916
+ Robust LM Error Statistic: 1.5777, p-value: 0.2091
+
+--- Hurricane: Francine ---
+ Number of counties: 72
+
+ LM Test Results for Hurricane Francine:
+ LM Lag Statistic: 6.7548, p-value: 0.0093
+ LM Error Statistic: 0.1138, p-value: 0.7358
+ Robust LM Lag Statistic: 7.0434, p-value: 0.0080
+ Robust LM Error Statistic: 0.4025, p-value: 0.5258
+
+--- Hurricane: Hanna ---
+ Number of counties: 37
+
+ LM Test Results for Hurricane Hanna:
+ LM Lag Statistic: 6.8044, p-value: 0.0091
+ LM Error Statistic: 1.4010, p-value: 0.2366
+ Robust LM Lag Statistic: 5.4779, p-value: 0.0193
+ Robust LM Error Statistic: 0.0745, p-value: 0.7848
+
+--- Hurricane: Harvey ---
+ Number of counties: 55
+
+ LM Test Results for Hurricane Harvey:
+ LM Lag Statistic: 0.1299, p-value: 0.7185
+ LM Error Statistic: 0.0001, p-value: 0.9913
+ Robust LM Lag Statistic: 0.1557, p-value: 0.6932
+ Robust LM Error Statistic: 0.0259, p-value: 0.8722
+
+--- Hurricane: Helene ---
+ Number of counties: 375
+
+ LM Test Results for Hurricane Helene:
+ LM Lag Statistic: 40.7344, p-value: 0.0000
+ LM Error Statistic: 46.2635, p-value: 0.0000
+ Robust LM Lag Statistic: 14.3202, p-value: 0.0002
+ Robust LM Error Statistic: 19.8493, p-value: 0.0000
+
+--- Hurricane: Ian ---
+ Number of counties: 140
+
+ LM Test Results for Hurricane Ian:
+ LM Lag Statistic: 0.9952, p-value: 0.3185
+ LM Error Statistic: 0.3520, p-value: 0.5530
+ Robust LM Lag Statistic: 0.6605, p-value: 0.4164
+ Robust LM Error Statistic: 0.0173, p-value: 0.8954
+
+--- Hurricane: Ida ---
+ Number of counties: 148
+
+ LM Test Results for Hurricane Ida:
+ LM Lag Statistic: 5.1519, p-value: 0.0232
+ LM Error Statistic: 1.0603, p-value: 0.3032
+ Robust LM Lag Statistic: 4.1192, p-value: 0.0424
+ Robust LM Error Statistic: 0.0277, p-value: 0.8679
+
+--- Hurricane: Idalia ---
+ Number of counties: 91
+
+ LM Test Results for Hurricane Idalia:
+ LM Lag Statistic: 0.4248, p-value: 0.5146
+ LM Error Statistic: 3.4574, p-value: 0.0630
+ Robust LM Lag Statistic: 0.0310, p-value: 0.8603
+ Robust LM Error Statistic: 3.0636, p-value: 0.0801
+
+--- Hurricane: Irma ---
+ Number of counties: 212
+
+ LM Test Results for Hurricane Irma:
+ LM Lag Statistic: 14.3834, p-value: 0.0001
+ LM Error Statistic: 6.8351, p-value: 0.0089
+ Robust LM Lag Statistic: 8.8891, p-value: 0.0029
+ Robust LM Error Statistic: 1.3408, p-value: 0.2469
+
+--- Hurricane: Isaias ---
+ Number of counties: 182
+
+ LM Test Results for Hurricane Isaias:
+ LM Lag Statistic: 11.0795, p-value: 0.0009
+ LM Error Statistic: 8.7647, p-value: 0.0031
+ Robust LM Lag Statistic: 4.6833, p-value: 0.0305
+ Robust LM Error Statistic: 2.3686, p-value: 0.1238
+
+--- Hurricane: Laura ---
+ Number of counties: 171
+
+ LM Test Results for Hurricane Laura:
+ LM Lag Statistic: 0.3393, p-value: 0.5602
+ LM Error Statistic: 0.7644, p-value: 0.3820
+ Robust LM Lag Statistic: 0.0469, p-value: 0.8285
+ Robust LM Error Statistic: 0.4720, p-value: 0.4921
+
+--- Hurricane: Michael ---
+ Number of counties: 198
+
+ LM Test Results for Hurricane Michael:
+ LM Lag Statistic: 18.0976, p-value: 0.0000
+ LM Error Statistic: 15.8595, p-value: 0.0001
+ Robust LM Lag Statistic: 7.8427, p-value: 0.0051
+ Robust LM Error Statistic: 5.6045, p-value: 0.0179
+
+--- Hurricane: Milton ---
+ Number of counties: 33
+
+ LM Test Results for Hurricane Milton:
+ LM Lag Statistic: 5.1618, p-value: 0.0231
+ LM Error Statistic: 2.0534, p-value: 0.1519
+ Robust LM Lag Statistic: 3.1108, p-value: 0.0778
+ Robust LM Error Statistic: 0.0024, p-value: 0.9611
+
+--- Hurricane: Nicholas ---
+ Number of counties: 49
+
+ LM Test Results for Hurricane Nicholas:
+ LM Lag Statistic: 2.8086, p-value: 0.0938
+ LM Error Statistic: 2.3318, p-value: 0.1268
+ Robust LM Lag Statistic: 1.2196, p-value: 0.2694
+ Robust LM Error Statistic: 0.7428, p-value: 0.3888
+
+--- Hurricane: Nicole ---
+ Number of counties: 36
+
+ LM Test Results for Hurricane Nicole:
+ LM Lag Statistic: 7.3465, p-value: 0.0067
+ LM Error Statistic: 0.9856, p-value: 0.3208
+ Robust LM Lag Statistic: 6.3984, p-value: 0.0114
+ Robust LM Error Statistic: 0.0375, p-value: 0.8465
+
+--- Hurricane: Sally ---
+ Number of counties: 55
+
+ LM Test Results for Hurricane Sally:
+ LM Lag Statistic: 1.0608, p-value: 0.3030
+ LM Error Statistic: 0.6505, p-value: 0.4199
+ Robust LM Lag Statistic: 2.3192, p-value: 0.1278
+ Robust LM Error Statistic: 1.9089, p-value: 0.1671
+
+--- Hurricane: Zeta ---
+ Number of counties: 183
+
+ LM Test Results for Hurricane Zeta:
+ LM Lag Statistic: 21.6926, p-value: 0.0000
+ LM Error Statistic: 0.9535, p-value: 0.3288
+ Robust LM Lag Statistic: 21.8234, p-value: 0.0000
+ Robust LM Error Statistic: 1.0843, p-value: 0.2977

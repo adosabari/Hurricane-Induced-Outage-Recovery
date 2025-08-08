@@ -1,0 +1,10 @@
+
+--------------------------------------------------
+ WALD TEST: Significance of All Spatially Lagged Coefficients (SDM) 
+--------------------------------------------------
+Wald test statistic: 300.2308, p-value: 0.0000
+
+--------------------------------------------------
+ LIKELIHOOD RATIO (LR) TEST: (SDM vs SAR) 
+--------------------------------------------------
+LR test statistic: 112.6667, df: 5, p-value: 0.0000
