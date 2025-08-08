@@ -1,0 +1,276 @@
+Total number of counties after filtering: 476
+Hurricane-Specific Spatial Weights Details:
+
+Hurricane: Beryl
+  Number of counties: 15
+
+Hurricane: Debby
+  Number of counties: 22
+
+Hurricane: Delta
+  Number of counties: 20
+
+Hurricane: Dorian
+  Number of counties: 10
+
+Hurricane: Florence
+  Number of counties: 13
+
+Hurricane: Francine
+  Number of counties: 8
+
+Hurricane: Hanna
+  Number of counties: 8
+
+Hurricane: Harvey
+  Number of counties: 5
+
+Hurricane: Helene
+  Number of counties: 74
+
+Hurricane: Ian
+  Number of counties: 24
+
+Hurricane: Ida
+  Number of counties: 22
+
+Hurricane: Idalia
+  Number of counties: 22
+
+Hurricane: Irma
+  Number of counties: 70
+
+Hurricane: Isaias
+  Number of counties: 26
+
+Hurricane: Laura
+  Number of counties: 29
+
+Hurricane: Michael
+  Number of counties: 44
+
+Hurricane: Milton
+  Number of counties: 11
+
+Hurricane: Nicholas
+  Number of counties: 10
+
+Hurricane: Sally
+  Number of counties: 7
+
+Hurricane: Zeta
+  Number of counties: 36
+
+==================== Spatial Durbin Model (SDM) ====================
+SDM MODEL SUMMARY FOR recovery_time_minutes:
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = FULL)
+-----------------------------------------------------------------
+Data set            :counties_subset
+Weights matrix      :Combined Weights
+Dependent Variable  :recovery_time_minutes                Number of Observations:         476
+Mean dependent var  :      7.8456                Number of Variables   :          47
+S.D. dependent var  :      1.2216                Degrees of Freedom    :         429
+Pseudo R-squared    :      0.4888
+Spatial Pseudo R-squared:  0.4758
+Log likelihood      :   -611.9964
+Sigma-square ML     :      0.7613                Akaike info criterion :    1317.993
+S.E of regression   :      0.8725                Schwarz criterion     :    1513.767
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT         6.28585         1.06843         5.88327         0.00000
+  max_percent_outage         0.82328         0.21665         3.80006         0.00014
+             All_SVI        -0.34930         0.20178        -1.73112         0.08343
+     Hurricane_Debby        -1.66652         0.55405        -3.00789         0.00263
+     Hurricane_Delta        -1.14570         0.43659        -2.62417         0.00869
+    Hurricane_Dorian        -1.75832         0.60112        -2.92508         0.00344
+  Hurricane_Florence        -0.68087         0.59209        -1.14994         0.25017
+  Hurricane_Francine        -1.66496         0.50444        -3.30064         0.00096
+     Hurricane_Hanna        -0.03967         0.40100        -0.09893         0.92120
+    Hurricane_Harvey         0.05245         0.46263         0.11338         0.90973
+    Hurricane_Helene        -0.52324         0.52738        -0.99216         0.32112
+       Hurricane_Ian        -1.75066         0.55750        -3.14020         0.00169
+       Hurricane_Ida        -1.04874         0.43494        -2.41122         0.01590
+    Hurricane_Idalia        -1.52095         0.55150        -2.75785         0.00582
+      Hurricane_Irma        -0.72004         0.52403        -1.37404         0.16943
+    Hurricane_Isaias        -1.76881         0.56380        -3.13729         0.00171
+     Hurricane_Laura        -0.94560         0.37189        -2.54266         0.01100
+   Hurricane_Michael        -1.23645         0.52894        -2.33762         0.01941
+    Hurricane_Milton        -1.52331         0.59388        -2.56499         0.01032
+  Hurricane_Nicholas         0.21132         0.40318         0.52413         0.60019
+     Hurricane_Sally        -1.95988         0.61223        -3.20119         0.00137
+      Hurricane_Zeta        -1.08064         0.48172        -2.24328         0.02488
+      state_Arkansas        -0.87755         0.52931        -1.65790         0.09734
+       state_Florida        -0.47329         0.29933        -1.58119         0.11383
+       state_Georgia        -0.32325         0.27889        -1.15910         0.24642
+       state_Indiana        -0.58829         0.71026        -0.82826         0.40752
+      state_Kentucky        -0.49857         0.40963        -1.21713         0.22355
+     state_Louisiana        -0.12829         0.38048        -0.33718         0.73598
+   state_Mississippi        -0.15453         0.38412        -0.40230         0.68746
+ state_New Hampshire         0.84947         0.95879         0.88599         0.37562
+    state_New Jersey         0.98152         0.62196         1.57812         0.11454
+      state_New York         0.86637         0.95873         0.90366         0.36617
+state_North Carolina        -0.67883         0.30953        -2.19310         0.02830
+          state_Ohio        -0.42746         0.92834        -0.46046         0.64519
+  state_Pennsylvania         0.04294         0.72128         0.05953         0.95253
+state_South Carolina        -0.47246         0.33142        -1.42555         0.15400
+     state_Tennessee        -0.06083         0.93467        -0.06508         0.94811
+         state_Texas        -1.70358         0.47999        -3.54919         0.00039
+      state_Virginia        -0.13178         0.30898        -0.42651         0.66974
+ state_West Virginia         0.05514         0.68866         0.08007         0.93618
+County_class_Nonmetro        -0.16597         0.10928        -1.51878         0.12882
+Hurricane_risk_Risky        -0.16101         0.11274        -1.42818         0.15324
+       Wind_swath_TD        -1.20466         0.19212        -6.27018         0.00000
+       Wind_swath_TS        -0.51143         0.12093        -4.22896         0.00002
+W_max_percent_outage        -0.07386         0.09646        -0.76569         0.44386
+           W_All_SVI        -0.51665         0.28264        -1.82796         0.06756
+W_recovery_time_minutes         0.12968         0.04549         2.85047         0.00437
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+Moran's I for SDM residuals of recovery_time_minutes: 0.05438550262639148
+p-value: 0.161, z-score: 0.9945669376669787
+
+==================== Spatial Autoregressive Model (SAR) ====================
+SAR MODEL SUMMARY FOR recovery_time_minutes:
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: MAXIMUM LIKELIHOOD SPATIAL LAG (METHOD = FULL)
+-----------------------------------------------------------------
+Data set            :counties_subset
+Weights matrix      :Combined Weights
+Dependent Variable  :recovery_time_minutes                Number of Observations:         476
+Mean dependent var  :      7.8456                Number of Variables   :          45
+S.D. dependent var  :      1.2216                Degrees of Freedom    :         431
+Pseudo R-squared    :      0.4803
+Spatial Pseudo R-squared:  0.4734
+Log likelihood      :   -614.7824
+Sigma-square ML     :      0.7739                Akaike info criterion :    1319.565
+S.E of regression   :      0.8797                Schwarz criterion     :    1507.009
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT         6.31408         1.07701         5.86258         0.00000
+  max_percent_outage         0.82762         0.21843         3.78890         0.00015
+             All_SVI        -0.45637         0.19765        -2.30899         0.02094
+     Hurricane_Debby        -1.68212         0.55846        -3.01205         0.00259
+     Hurricane_Delta        -1.20407         0.44002        -2.73637         0.00621
+    Hurricane_Dorian        -1.81736         0.60430        -3.00738         0.00264
+  Hurricane_Florence        -0.67969         0.59684        -1.13881         0.25478
+  Hurricane_Francine        -1.64940         0.50834        -3.24471         0.00118
+     Hurricane_Hanna         0.04659         0.40151         0.11603         0.90763
+    Hurricane_Harvey         0.02699         0.46569         0.05796         0.95378
+    Hurricane_Helene        -0.48188         0.53118        -0.90720         0.36430
+       Hurricane_Ian        -1.81535         0.56165        -3.23216         0.00123
+       Hurricane_Ida        -1.05931         0.43848        -2.41587         0.01570
+    Hurricane_Idalia        -1.49645         0.55500        -2.69632         0.00701
+      Hurricane_Irma        -0.69445         0.52820        -1.31475         0.18859
+    Hurricane_Isaias        -1.79191         0.56799        -3.15485         0.00161
+     Hurricane_Laura        -0.94188         0.37477        -2.51322         0.01196
+   Hurricane_Michael        -1.25443         0.53331        -2.35218         0.01866
+    Hurricane_Milton        -1.56763         0.59856        -2.61900         0.00882
+  Hurricane_Nicholas         0.31676         0.40339         0.78524         0.43231
+     Hurricane_Sally        -1.92867         0.61646        -3.12863         0.00176
+      Hurricane_Zeta        -1.03059         0.48476        -2.12599         0.03350
+      state_Arkansas        -0.90639         0.53350        -1.69895         0.08933
+       state_Florida        -0.45077         0.30129        -1.49613         0.13462
+       state_Georgia        -0.30328         0.28055        -1.08101         0.27969
+       state_Indiana        -0.60862         0.71609        -0.84992         0.39537
+      state_Kentucky        -0.56612         0.41184        -1.37459         0.16926
+     state_Louisiana        -0.06484         0.38234        -0.16958         0.86534
+   state_Mississippi        -0.15630         0.38723        -0.40364         0.68648
+ state_New Hampshire         0.92130         0.96567         0.95406         0.34005
+    state_New Jersey         0.98071         0.62617         1.56622         0.11730
+      state_New York         0.95100         0.96545         0.98503         0.32461
+state_North Carolina        -0.64839         0.31140        -2.08219         0.03732
+          state_Ohio        -0.41431         0.93593        -0.44267         0.65801
+  state_Pennsylvania         0.04738         0.72507         0.06534         0.94790
+state_South Carolina        -0.45643         0.33398        -1.36667         0.17173
+     state_Tennessee        -0.08055         0.94238        -0.08548         0.93188
+         state_Texas        -1.71474         0.48321        -3.54868         0.00039
+      state_Virginia        -0.12821         0.31155        -0.41152         0.68069
+ state_West Virginia         0.04660         0.69396         0.06715         0.94646
+County_class_Nonmetro        -0.18809         0.10973        -1.71410         0.08651
+Hurricane_risk_Risky        -0.17579         0.11360        -1.54743         0.12176
+       Wind_swath_TD        -1.21405         0.19361        -6.27065         0.00000
+       Wind_swath_TS        -0.53502         0.12166        -4.39780         0.00001
+W_recovery_time_minutes         0.06406         0.01335         4.79804         0.00000
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+Moran's I for SAR residuals of recovery_time_minutes: 0.103130193005371
+p-value: 0.038, z-score: 1.779692305514505
+
+==================== Spatial Error Model (SEM) ====================
+SEM MODEL SUMMARY FOR recovery_time_minutes:
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: ML SPATIAL ERROR (METHOD = full)
+---------------------------------------------------
+Data set            :counties_subset
+Weights matrix      :Combined Weights
+Dependent Variable  :recovery_time_minutes                Number of Observations:         476
+Mean dependent var  :      7.8456                Number of Variables   :          44
+S.D. dependent var  :      1.2216                Degrees of Freedom    :         432
+Pseudo R-squared    :      0.4515
+Log likelihood      :   -619.9425
+Sigma-square ML     :      0.7792                Akaike info criterion :    1327.885
+S.E of regression   :      0.8827                Schwarz criterion     :    1511.163
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT         6.68220         1.10667         6.03813         0.00000
+  max_percent_outage         0.84060         0.21751         3.86457         0.00011
+             All_SVI        -0.38930         0.20297        -1.91803         0.05511
+     Hurricane_Debby        -1.82995         0.63115        -2.89938         0.00374
+     Hurricane_Delta        -1.34635         0.50847        -2.64784         0.00810
+    Hurricane_Dorian        -1.64715         0.70441        -2.33833         0.01937
+  Hurricane_Florence        -0.56087         0.68090        -0.82373         0.41010
+  Hurricane_Francine        -1.90300         0.58053        -3.27801         0.00105
+     Hurricane_Hanna        -0.20994         0.42610        -0.49271         0.62222
+    Hurricane_Harvey        -0.27507         0.52062        -0.52836         0.59725
+    Hurricane_Helene        -0.51728         0.60779        -0.85108         0.39473
+       Hurricane_Ian        -1.84010         0.63842        -2.88226         0.00395
+       Hurricane_Ida        -1.21701         0.50747        -2.39820         0.01648
+    Hurricane_Idalia        -1.64596         0.63832        -2.57860         0.00992
+      Hurricane_Irma        -0.77860         0.60639        -1.28400         0.19914
+    Hurricane_Isaias        -1.91597         0.64681        -2.96221         0.00305
+     Hurricane_Laura        -1.14287         0.42073        -2.71641         0.00660
+   Hurricane_Michael        -1.28522         0.61001        -2.10688         0.03513
+    Hurricane_Milton        -1.54687         0.69854        -2.21444         0.02680
+  Hurricane_Nicholas         0.13336         0.43904         0.30376         0.76131
+     Hurricane_Sally        -2.09108         0.70916        -2.94868         0.00319
+      Hurricane_Zeta        -1.12727         0.56030        -2.01193         0.04423
+      state_Arkansas        -0.89848         0.59379        -1.51313         0.13025
+       state_Florida        -0.50572         0.33631        -1.50373         0.13265
+       state_Georgia        -0.33420         0.31687        -1.05469         0.29157
+       state_Indiana        -0.89309         0.73370        -1.21724         0.22351
+      state_Kentucky        -0.74253         0.47004        -1.57973         0.11417
+     state_Louisiana         0.11587         0.43878         0.26408         0.79172
+   state_Mississippi        -0.09370         0.44114        -0.21241         0.83179
+ state_New Hampshire         0.55544         0.97987         0.56685         0.57081
+    state_New Jersey         1.23207         0.72174         1.70708         0.08781
+      state_New York         0.57060         0.97894         0.58288         0.55998
+state_North Carolina        -0.91340         0.34075        -2.68057         0.00735
+          state_Ohio        -0.89812         0.94470        -0.95069         0.34176
+  state_Pennsylvania        -0.07472         0.75137        -0.09945         0.92078
+state_South Carolina        -0.60650         0.37400        -1.62166         0.10488
+     state_Tennessee        -0.51929         0.95231        -0.54529         0.58555
+         state_Texas        -1.89013         0.54631        -3.45981         0.00054
+      state_Virginia        -0.30512         0.34559        -0.88288         0.37730
+ state_West Virginia         0.11495         0.78728         0.14601         0.88391
+County_class_Nonmetro        -0.15485         0.11164        -1.38710         0.16541
+Hurricane_risk_Risky        -0.12759         0.12046        -1.05913         0.28954
+       Wind_swath_TD        -1.36445         0.20380        -6.69504         0.00000
+       Wind_swath_TS        -0.50890         0.12966        -3.92493         0.00009
+              lambda         0.20695         0.04768         4.34043         0.00001
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================
+Moran's I for SEM residuals of recovery_time_minutes: 0.20219939186662678
+p-value: 0.001, z-score: 3.59490983772084
